@@ -54,7 +54,11 @@ export function SiteFooter() {
     <footer className="site-footer">
       <span>Convalt Energy / New York + everywhere energy matters</span>
       <span>© {new Date().getFullYear()} Convalt Energy</span>
-      <Link href="/contact" data-testid="link-footer-contact">Contact <ArrowUpRight size={12} /></Link>
+      <span className="site-footer-links">
+        <Link href="/resources" data-testid="link-footer-resources">View our approach <ArrowUpRight size={12} /></Link>
+        <a href="https://www.linkedin.com/company/convalt-energy/" target="_blank" rel="noreferrer" data-testid="link-footer-linkedin">LinkedIn <ArrowUpRight size={12} /></a>
+        <Link href="/contact" data-testid="link-footer-contact">Contact <ArrowUpRight size={12} /></Link>
+      </span>
     </footer>
   );
 }
