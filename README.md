@@ -19,6 +19,7 @@ The application is a Next.js App Router project intended to serve as the public 
 - TypeScript
 - Tailwind CSS
 - Vercel Analytics in production
+- Three.js for interactive 3D/WebGL visuals
 - Next.js App Router
 
 ## Project structure
